@@ -2,6 +2,8 @@
 
 internal class Musica
 {
+    private List<Avaliacao> notas = new();
+
     public Musica(Banda artista, string nome)
     {
         Artista = artista;
